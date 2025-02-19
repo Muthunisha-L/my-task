@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .welcome-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .post-container {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .post-container input {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .post-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
